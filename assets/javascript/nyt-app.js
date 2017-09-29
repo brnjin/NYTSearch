@@ -2,7 +2,7 @@ var startDate = $('#startDate').text();
 var endDate = $('#endDate').text();
 var numRecords = $('#searchRecords').text();
 var searchString = $('#searchBox').text();
-var url = "https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key:e215c6f07af8473aba30a72b907500a4&q=california" + searchString;
+var url = "https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=927beb2fba31434ea2384e05a90351c0" ;
 
 // if start date is defined, append to url
 if (startDate !== undefined) {
