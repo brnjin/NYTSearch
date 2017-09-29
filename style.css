@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 body {
+    color:white;
 }
 [class*="col-"] {
     width: 100%;
@@ -56,18 +57,30 @@ body {
     .col-sm-11 {width: 91.66%;}
     .col-sm-12 {width: 100%;}
 }
+.jumbotron {
+    background-color: navy;
+    font: white;
+}
+.panel-default {
+    background-color: navy;
+    color: white;
+}
 h1 {
     background-color: navy;
     text-align: center;
     font-family: times;
     font-size: 36px;
-    color: white;
-    border: solid 1px navy;
+    font-color: white;
+    border: solid 0px navy;
+    padding: 2px ;
+    margin: auto;
 }
 h3 {
     background-color: navy;
-    border: solid 1px navy;
-    color: white;
+    border: solid 0px navy;
+    font-color: white;
+    padding: 2px;
+    margin: auto;
 }
 #searchBox
 #searchRecords
